@@ -1,0 +1,24 @@
+{
+  "name": "routines",
+  "version": "1.0.0",
+  "description": "An app to manage routines, complete with an auto-generated voice to walk you through them.",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8",
+    "silent-audio": "^1.0.1",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/pwa": "^3.3.5"
+  }
+}

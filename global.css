@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+
+:root {
+  --round: 2rem;
+  --ctrl-bar-bg: #353535;
+  --page-bg: #262626;
+  --element-bg: #404040;
+  --large-gap: 2rem;
+  --small-gap: 1rem;
+  --text: #c0c0c0;
+  /* --minor-text: #8a8a8a; */
+  /* --accent: #a973fb; */ /*#07f2f8;*/
+}
+
+body {
+  margin: 0;
+  font-family: "Comfortaa", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  filter: opacity(0.6);
+  cursor: default;
+}
+
+img {
+  pointer-events: none;
+}
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
